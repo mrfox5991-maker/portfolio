@@ -1,13 +1,5 @@
 $(document).ready(function(){
-    // setInterval(function(){
-    // $('.slidelist').delay(20000);
-    // $('.slidelist').animate({marginLeft: -800});
-    // $('.slidelist').delay(20000);
-    // $('.slidelist').animate({marginLeft: -1600});
-    // $('.slidelist').delay(20000);
-    // $('.slidelist').animate({marginLeft: 0});
-    // $('.slidelist').delay(20000);
-    // });
+    
 
     $('.navi>li').mouseover(function(){
        //$('.submenu').stop().slideDown(500);
@@ -24,6 +16,16 @@ $(document).ready(function(){
             return false;
         });
     });
+
+    // setInterval(function(){
+    // $('.slidelist').delay(20000);
+    // $('.slidelist').animate({marginLeft: -800});
+    // $('.slidelist').delay(20000);
+    // $('.slidelist').animate({marginLeft: -1600});
+    // $('.slidelist').delay(20000);
+    // $('.slidelist').animate({marginLeft: 0});
+    // $('.slidelist').delay(20000);
+    // });
 
     setInterval(function(){
         $('.gallery').delay(1000);
