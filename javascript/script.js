@@ -48,9 +48,9 @@ $(document).ready(function(){
     });
 
     // 팝업창에 주어진 이름을 변수로 던져 저장된 쿠키가 있는지 확인     
-    if(!getCookie("popup")) {
-        $(".popup_overlay").fadeIn(300);
-    }    
+    // if(!getCookie("popup")) {
+    //     $(".popup_overlay").fadeIn(300);
+    // }    
     
     $(".closePopup, popup_overlay").on("click", function(e){
         if (e.target === this) {
